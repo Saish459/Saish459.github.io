@@ -1,0 +1,399 @@
+  body{
+      background-color: #FFFDF8; 
+  }
+
+  body.contact{
+    background-color: black;
+  }
+  
+  .home-section {
+      background-color: #ffc021;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #252424;
+      margin-left: 2cm;
+      margin-right: 2cm;
+      margin-top: 2.5cm;
+
+  }
+  
+  .body-section {
+    background-color: balck;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #252424;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 2cm;
+  }
+
+  .about-section {
+    background-color: #FFFDF8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #252424;
+    margin-left: 3cm;
+    margin-top: 2.5cm;
+
+  }
+    
+  .navbar-logo img {
+      height: 30px;
+      width: auto;
+  }
+    
+  .navbar a {
+      text-decoration: none;
+      color: #000000;
+      margin-left: 50px;
+  }
+    
+  .navbar {
+      background-color: #FFFDF8;
+      
+      text-align:center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: background-color 0.3s; /* Add this line for smooth transition */
+    border-radius: 1.5em;
+  }
+
+  .nav-link:hover {
+    background-color: black; /* Change the background color to black on hover */
+    color: white; /* Change the font color to white on hover */
+    border-radius: 1.5em;
+  }
+
+  .portfolio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-title h3 {
+    font-size: 50px;
+    color: #000000;
+    text-shadow: 6px 2px 2px rgba(148, 115, 115, 0.2);
+    font-family: 'Dancing Script', cursive; 
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-left: 0.5em;
+  }
+
+  .section {
+      padding: 40px;
+  }
+
+  .section-home{
+    padding-left: 60px;
+    padding-bottom: 30px;
+  }
+
+  .section h2 {
+      font-size: 24px;
+  }
+
+
+#typing-text::after {
+    content: '|';
+    animation: blink-caret 1.0s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .learn-more-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+  .home-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .home-center {
+      text-align: center;
+  }
+
+  .home-left {
+      flex: 1;
+      padding-right: 20px;
+  }
+
+.home-right {
+    flex: 1;
+    text-align:center;
+
+  }
+  
+  .home-right img {
+    width: 550px;
+    height: 160px;
+    border-radius:0.4em;
+  }
+
+.home-left h3 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+  }
+
+.home-left p {
+    font-size: 16px;
+    text-align: left;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+  }
+
+
+  .scroll-parent {
+    position: relative;
+    width: 100vw;
+    height: 20rem;
+    padding: 2rem 0;
+    overflow-x: hidden;
+  }
+
+  .scroll-element {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  .primary {
+    animation: primary 10s linear infinite;
+  }
+
+  .secondary {
+    animation: secondary 10s linear infinite;
+  }
+
+  @keyframes primary {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+  @keyframes secondary {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+
+
+#projects {
+    text-align: center;
+    margin:3.5em;
+    border-radius: 1em;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .project {
+    flex-basis: calc(33.33% - 20px);
+
+  }
+
+  .project p {
+    color: #000000;
+    font-size: 17px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .project-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 1em;
+  }
+  
+  .project h3 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    transition: transform 0.3s;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+
+  .project h3:hover {
+    transform: scale(1.1); /* Add this line to apply the zoom effect on hover */
+  }
+
+  .zoom-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-link:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .publication-box {
+    background-color: #14213d;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .publication h3{
+    font-family: 'Dancing Script', cursive; 
+
+    color: rgb(255, 255, 255);
+  }
+  .publication ul{
+    color: white;
+  }
+  
+  .publication-box.right-aligned {
+    text-align: right;
+  }
+
+  .more-publications {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .zoom-effect {
+    transition: transform 0.3s;
+  }
+
+  .zoom-effect:hover {
+    transform: scale(1.05);
+  }
+
+
+  .more-publications a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc021;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .more-publications a:hover {
+    background-color: #000;
+    color: #ffffff;
+  }
+
+.project a,
+.publication a,
+.extracurricular a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  #internships {
+    padding: 50px 0;
+  }
+  
+  #internships h2 {
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .internship-box {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #eaeaea; /* Replace with your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .internship-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .internship-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+  }
+  
+
+  .contact{
+    margin-left:2cm;
+    margin-right: 2cm;
+  }
+
+  .contact h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial;
+    line-height: 2;
+  }
+
+  .contact h2{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 30px;
+    line-height: 3;
+    text-align: center;
+    margin-bottom: 0;
+    transition: transform 0.3s;
+  }
+  .contact h2:hover{
+    transform: scale(1.2);
+  }
+
+  .social-links {
+    display: flex;
+    gap: 4em;
+    justify-content: center; /* Horizontally center the logos */
+  }
+  
+  .social-links img {
+    width: 42px;
+    height: 42px;
+  }
