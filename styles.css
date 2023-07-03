@@ -65,13 +65,13 @@
     text-decoration: none;
     font-size: 18px;
     color: black;
-    transition: background-color 0.3s; /* Add this line for smooth transition */
+    transition: background-color 0.3s; 
     border-radius: 1.5em;
   }
 
   .nav-link:hover {
-    background-color: black; /* Change the background color to black on hover */
-    color: white; /* Change the font color to white on hover */
+    background-color: black;
+    color: white;
     border-radius: 1.5em;
   }
 
@@ -254,7 +254,7 @@
   }
 
   .project h3:hover {
-    transform: scale(1.1); /* Add this line to apply the zoom effect on hover */
+    transform: scale(1.1);
   }
 
   .zoom-link {
@@ -339,7 +339,7 @@
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #eaeaea; /* Replace with your desired background color */
+    background-color: #eaeaea;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -390,7 +390,7 @@
   .social-links {
     display: flex;
     gap: 4em;
-    justify-content: center; /* Horizontally center the logos */
+    justify-content: center; 
   }
   
   .social-links img {
