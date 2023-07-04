@@ -39,16 +39,12 @@
     margin-top: 2.5cm;
 
   }
-    
-  .navbar-logo img {
-      height: 30px;
-      width: auto;
-  }
+
     
   .navbar a {
       text-decoration: none;
       color: #000000;
-      margin-left: 50px;
+      margin-left: 16px;
   }
     
   .navbar {
@@ -70,8 +66,8 @@
   }
 
   .nav-link:hover {
-    background-color: black;
-    color: white;
+    background-color: black; 
+    color: white; 
     border-radius: 1.5em;
   }
 
@@ -144,9 +140,14 @@
 .home-right {
     flex: 1;
     text-align:center;
-
   }
-  
+
+  @media(max-width: 40em){
+    .home-right{
+      flex: 0;
+    }
+  }
+
   .home-right img {
     width: 550px;
     height: 160px;
@@ -226,6 +227,12 @@
     justify-content: space-between;
     gap: 20px;
   }
+
+  @media (max-width: 67em){
+    .projects-container{
+      display: block;
+    }
+  }
   
   .project {
     flex-basis: calc(33.33% - 20px);
@@ -236,7 +243,8 @@
     color: #000000;
     font-size: 17px;
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
   }
 
   .project-box {
@@ -254,7 +262,7 @@
   }
 
   .project h3:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); 
   }
 
   .zoom-link {
@@ -274,11 +282,12 @@
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
   .publication h3{
     font-family: 'Dancing Script', cursive; 
-
     color: rgb(255, 255, 255);
   }
+
   .publication ul{
     color: white;
   }
@@ -339,8 +348,14 @@
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #eaeaea;
+    background-color: #eaeaea; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 80em) {
+    .internship-box{
+      width: 100%;
+    }
   }
   
   .internship-box h3 {
@@ -396,4 +411,11 @@
   .social-links img {
     width: 42px;
     height: 42px;
+  }
+
+  @media (max-width: 40em){
+    .social-links img{
+      width: 35px;
+      height: 35px
+    }
   }
