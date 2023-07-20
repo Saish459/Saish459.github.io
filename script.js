@@ -17,5 +17,3 @@ var typed = new Typed('#typing-text', {
     showCursor: false,
     loop: true
   });
-  
-  
