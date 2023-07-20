@@ -3,7 +3,7 @@
   }
 
   body.contact{
-    background-color: black;
+    background-color: #303030;
   }
   
   .home-section {
@@ -15,11 +15,10 @@
       margin-left: 2cm;
       margin-right: 2cm;
       margin-top: 2.5cm;
-
   }
   
   .body-section {
-    background-color: balck;
+    background-color: black;
     font-family: Arial;
     font-size: 16px;
     line-height: 1.6;
@@ -37,26 +36,23 @@
     color: #252424;
     margin-left: 3cm;
     margin-top: 2.5cm;
-
   }
-
     
   .navbar a {
       text-decoration: none;
-      color: #000000;
-      margin-left: 16px;
+      color: black;
+      margin-left: 8px;
   }
     
   .navbar {
       background-color: #FFFDF8;
-      
       text-align:center;
       padding: 20px;
       font-family: Arial, sans-serif;
   }
 
   .nav-link {
-    display: inline-block;
+    display:inline-block;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -96,11 +92,6 @@
     padding-bottom: 30px;
   }
 
-  .section h2 {
-      font-size: 24px;
-  }
-
-
 #typing-text::after {
     content: '|';
     animation: blink-caret 1.0s step-end infinite;
@@ -112,20 +103,10 @@
     }
   }
 
-  .learn-more-button {
-    display: inline-block;
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    margin-top: 10px;
-  }
-
   .home-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .home-center {
@@ -137,7 +118,7 @@
       padding-right: 20px;
   }
 
-.home-right {
+  .home-right {
     flex: 1;
     text-align:center;
   }
@@ -154,30 +135,39 @@
     border-radius:0.4em;
   }
 
-.home-left h3 {
+  .home-left h3 {
     font-size: 44px;
     font-weight: bold;
     font-family: sans-serif;
     margin-bottom: 10px;
   }
 
-.home-left p {
+  .home-left p {
     font-size: 16px;
     text-align: left;
     font-family: sans-serif;
     margin-bottom: 15px;
   }
 
+  .learn-more-button {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
 
-  .scroll-parent {
+  .scroll-parent-1 {
     position: relative;
     width: 100vw;
-    height: 20rem;
+    height: 10rem;
     padding: 2rem 0;
     overflow-x: hidden;
   }
 
-  .scroll-element {
+  .scroll-element-1 {
     width: inherit;
     height: inherit;
     position: absolute;
@@ -188,16 +178,34 @@
     justify-content: space-around;
   }
 
-
-  .primary {
-    animation: primary 10s linear infinite;
+  .scroll-parent-2 {
+    position: relative;
+    width: 100vw;
+    height: 10rem;
+    padding: 2rem 0;
+    overflow-x: hidden;
   }
 
-  .secondary {
-    animation: secondary 10s linear infinite;
+  .scroll-element-2 {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  @keyframes primary {
+  .primary1 {
+    animation: primary1 10s linear infinite;
+  }
+
+  .secondary1 {
+    animation: secondary1 10s linear infinite;
+  }
+
+  @keyframes primary1 {
     from {
       left: 0%;
     }
@@ -206,7 +214,33 @@
     }
   }
 
-  @keyframes secondary {
+  @keyframes secondary1 {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0%;
+    }
+  }
+
+  .primary2 {
+    animation: primary2 10s linear infinite reverse;
+  }
+
+  .secondary2 {
+    animation: secondary2 10s linear infinite reverse;
+  }
+
+  @keyframes primary2 {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+  @keyframes secondary2 {
     from {
       left: 100%;
     }
@@ -236,11 +270,10 @@
   
   .project {
     flex-basis: calc(33.33% - 20px);
-
   }
 
   .project p {
-    color: #000000;
+    color: #303030;
     font-size: 17px;
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
@@ -274,7 +307,6 @@
     transform: scale(1.1);
   }
   
-
   .publication-box {
     background-color: #14213d;
     padding: 20px;
@@ -309,7 +341,6 @@
     transform: scale(1.05);
   }
 
-
   .more-publications a {
     display: inline-block;
     padding: 10px 20px;
@@ -327,8 +358,7 @@
   }
 
 .project a,
-.publication a,
-.extracurricular a {
+.publication a{
     text-decoration: none;
     color: #333;
   }
@@ -339,7 +369,8 @@
   
   #internships h2 {
     margin-bottom: 30px;
-    color: #000;
+    color: #000000;
+
   }
   
   .internship-box {
@@ -374,9 +405,10 @@
   .horizontal-line {
     width: 100%;
     height: 1px;
-    background-color: #000;
+    background-color: black; 
+    margin: 0 auto;
+
   }
-  
 
   .contact{
     margin-left:2cm;
@@ -398,6 +430,7 @@
     margin-bottom: 0;
     transition: transform 0.3s;
   }
+  
   .contact h2:hover{
     transform: scale(1.2);
   }
