@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 var typed = new Typed('#typing-text', {
-    strings: ["I'm ..."],
+    strings: ["I'm Pavan Saish..."],
     typeSpeed: 120,
     backSpeed: 50,
     startDelay: 500,
