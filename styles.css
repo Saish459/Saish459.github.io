@@ -120,8 +120,18 @@
 
   .home-right {
     flex: 1;
-    text-align:center;
+
+    position: relative
   }
+
+
+.badge-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
 
   @media(max-width: 40em){
     .home-right{
