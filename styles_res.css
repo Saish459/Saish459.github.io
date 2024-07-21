@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.outer_border {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bona-nova-sc-regular {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.bona-nova-sc-regular a {
+    color: #000000;  
+    text-decoration: none;  
+    text-decoration: underline;
+}
+
+
+.header {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 300;
+    font-style:normal;
+}
+
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bigname h1 {
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+
+
+h2 {
+    border-bottom: 1.5px solid #000000;
+    font-size: 20px;
+    margin:0px
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #000000;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float:left;
+}
+
+.education{
+    margin-bottom: 0px;
+} 
+
+.experience, .skills, .projects, .publications, .leadership_and_extracurricular {
+    margin-bottom: 10px;
+}
+
