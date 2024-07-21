@@ -12,5 +12,3 @@ It's designed to provide a brief overview of my skills, experience, and the proj
 
 These technologies were used to create both the portfolio website itself and the projects showcased within it. 🛠️
 
-## 📄 License
-This project is licensed under the MIT License
